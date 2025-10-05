@@ -1,7 +1,7 @@
 import { redirect } from "next/navigation"
 import { createClient } from "@/lib/supabase/server"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { BookOpen, Sparkles, Settings, Plus, CheckCircle } from "lucide-react"
+import { BookOpen, Sparkles, Settings, Plus } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { calculateStreak } from "@/lib/streak-utils"
@@ -171,3 +171,5 @@ export default async function LibraryPage() {
     </div>
   )
 }
+
+import { CheckCircle } from "lucide-react"
